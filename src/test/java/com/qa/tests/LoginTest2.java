@@ -6,6 +6,12 @@ import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.selenium.TestBase;
 
+/**
+ * Class which contains test cases for Login page.
+ * 
+ * @author Shyam Hushangabadkar
+ *
+ */
 public class LoginTest2 extends TestBase {
 
 	@Test
