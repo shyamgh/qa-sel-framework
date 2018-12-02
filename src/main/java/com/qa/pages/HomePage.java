@@ -11,6 +11,13 @@ import com.qa.pageelements.IHomePage;
 import com.qa.selenium.PageBase;
 import com.qa.uicontrols.ControlBase;
 
+/**
+ * Class to represent home page containing actions and verifications that can be
+ * performed on this page
+ * 
+ * @author Shyam Hushangabadkar
+ *
+ */
 public class HomePage extends PageBase implements IHomePage {
 
 	@FindBy(css = "a[id='loginsubmit']")

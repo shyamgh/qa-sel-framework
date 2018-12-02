@@ -4,6 +4,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+/**
+ * Abstract Class which is parent of all tests. It contains methods common for
+ * all tests.
+ * 
+ * @author Shyam Hushangabadkar
+ *
+ */
+
 public class TestBase extends SeleniumBase {
 
 	@BeforeClass

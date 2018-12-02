@@ -8,7 +8,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
-public class SeleniumBase {
+/**
+ * Abstract Class which is parent of Page base and test base classes. It
+ * contains methods common for all pages as well as tests.
+ * 
+ * @author Shyam Hushangabadkar
+ *
+ */
+public abstract class SeleniumBase {
 
 	protected static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	private static Properties prop = null;
